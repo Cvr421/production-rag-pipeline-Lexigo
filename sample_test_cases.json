@@ -1,0 +1,87 @@
+[
+  {
+    "id": "t01",
+    "question": "What is the next hearing date in Arvind Mehta v. Northfield Logistics?",
+    "expected_citation_files": ["01_matter_memo_arvind_v_northfield.md"],
+    "expected_grounded": true,
+    "pass_fail_notes": "Pending live run; pass if the answer states 15 August 2025 and cites the expected file."
+  },
+  {
+    "id": "t02",
+    "question": "How long is the employment notice period for Priya Nambiar?",
+    "expected_citation_files": ["02_employment_agreement_excerpt.md"],
+    "expected_grounded": true,
+    "pass_fail_notes": "Pending live run; pass if the answer states 60 days and cites the expected file."
+  },
+  {
+    "id": "t03",
+    "question": "What must the employee hand over during the notice period?",
+    "expected_citation_files": ["02_employment_agreement_excerpt.md"],
+    "expected_grounded": true,
+    "pass_fail_notes": "Pending live run; pass if laptops, badges, and source code access are stated."
+  },
+  {
+    "id": "t04",
+    "question": "How many days before a listed date must written arguments be filed?",
+    "expected_citation_files": ["03_hearing_notice_template.md"],
+    "expected_grounded": true,
+    "pass_fail_notes": "Pending live run; pass if the answer states seven clear days."
+  },
+  {
+    "id": "t05",
+    "question": "When was the Lakeview Society matter adjourned to?",
+    "expected_citation_files": ["03_hearing_notice_template.md"],
+    "expected_grounded": true,
+    "pass_fail_notes": "Pending live run; pass if the answer states 22 September 2025."
+  },
+  {
+    "id": "t06",
+    "question": "When is mandatory mediation required under Section 14?",
+    "expected_citation_files": ["04_statute_style_excerpt_fictional.md"],
+    "expected_grounded": true,
+    "pass_fail_notes": "Pending live run; pass if the answer includes commercial suits above five lakh and 30 days."
+  },
+  {
+    "id": "t07",
+    "question": "What interest rate may be awarded when a contract fixes no rate?",
+    "expected_citation_files": ["04_statute_style_excerpt_fictional.md"],
+    "expected_grounded": true,
+    "pass_fail_notes": "Pending live run; pass if the answer states simple interest at 9% per year."
+  },
+  {
+    "id": "t08",
+    "question": "What percentage did Northfield offer in settlement?",
+    "expected_citation_files": ["05_counsel_notes_settlement.md"],
+    "expected_grounded": true,
+    "pass_fail_notes": "Pending live run; pass if the answer states 70% of open invoices."
+  },
+  {
+    "id": "t09",
+    "question": "What was Arvind's settlement counteroffer?",
+    "expected_citation_files": ["05_counsel_notes_settlement.md"],
+    "expected_grounded": true,
+    "pass_fail_notes": "Pending live run; pass if the answer states 85%."
+  },
+  {
+    "id": "t10",
+    "question": "What is the monthly rent for Unit 4B?",
+    "expected_citation_files": ["06_property_lease_clause.md"],
+    "expected_grounded": true,
+    "pass_fail_notes": "Pending live run; pass if the answer states ₹45,000 and cites the lease file."
+  },
+  {
+    "id": "t11",
+    "question": "Is subletting allowed without the lessor's written consent?",
+    "expected_citation_files": ["06_property_lease_clause.md"],
+    "expected_grounded": true,
+    "pass_fail_notes": "Pending live run; pass if the answer says no."
+  },
+  {
+    "id": "t12",
+    "question": "What is the fictional court's rule on cryptocurrency taxation?",
+    "expected_citation_files": [],
+    "expected_grounded": false,
+    "pass_fail_notes": "Pending live run; pass if the answer uses the cannot-find fallback and returns no citations."
+  }
+]
+
