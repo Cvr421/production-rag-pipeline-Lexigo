@@ -1,6 +1,6 @@
 # Lexigo document Q&A API
 
-This project is a small grounded Q&A HTTP API for the fictional legal-style corpus supplied with the Legixo Thinklabs take-home. It answers only from indexed document chunks, returns the chunks used as citations, and returns a clear fallback when retrieval is not good enough.
+
 
 ## Requirements
 
